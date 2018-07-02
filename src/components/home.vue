@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <nav class="navbar bg-light navbar-light fixed-top">
-    <a class="navbar-brand" href="/">BubbleGate-SPA </a>
+    <a class="navbar-brand" href="/">Flickr-SPA </a>
   </nav>
     <result></result>
   </div>
