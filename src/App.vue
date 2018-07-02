@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HomeView />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import HomeView from './components/home.vue'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HomeView
   }
 }
 </script>
@@ -25,4 +23,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+@import'~bootstrap/dist/css/bootstrap.css'
 </style>
