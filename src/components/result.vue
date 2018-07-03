@@ -5,7 +5,7 @@
 		      <form class="form-inline" >
 		      	<div class="input-group col-lg-12 col-sm-12 col-sm-12 col-xs-12">
   					<input type="text" 
-  						class="form-control col-lg-12 col-sm-12 col-sm-12 col-xs-12" 
+  						class="form-control col-lg-12 col-sm-12 col-sm-12 col-xs-12" v-model='tag'
   						placeholder="Search for pictures in Flickr’s public API using tags" aria-label="Recipient's username" aria-describedby="basic-addon2"
   						@blur="blurKeywords">
   					<!-- <div class="input-group-append">
